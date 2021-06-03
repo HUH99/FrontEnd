@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+    .container{
+      width:700px;
+      border:2px solid gray;
+      margin:auto;
+    }
+    header{
+      border-bottom: 2px solid gray;
+      text-align: center;
+    }
+    nav{
+      float:left;
+      width:150px;
+      border-right:2px solid gray;
+    }
+    article{
+      float:left;
+      width:350px;
+      border-left:1px solid gray;
+      border-right:1px solid gray;
+      margin-left:-1px;
+    }
+    aside{
+      float:left;
+      width:100px;
+      border-left:2px solid gray;
+      margin-left:-1px;
+    }
+    footer{
+      clear:both;
+      height: 100px;
+      border-top:2px solid gray;
+      text-align: center;
+      padding:10px;
+    }
+  </style>
+</head>
+<body>
+ <div class="container">
+    <header>
+    <h1>
+      Work Out for Beginners
+    </h1>
+    </header>
+    <nav>
+     <header>YouTuber Recommendation</header>
+      <ul>       
+          <li><a href = "https://www.youtube.com/user/MrRagoona88" 
+            target ="_blank">말왕</a></li>
+          <li><a href="https://www.youtube.com/channel/UCdtRAcd3L_UpV4tMXCw63NQ" 
+            target ="_blank">김계란</a></li>
+          <li><a href = "https://www.youtube.com/channel/UCoHirUZkTs1nOtyJTNbNJ5g" 
+            target ="_blank">지피티</a></li>
+          <li><a href = "https://www.youtube.com/channel/UCQ4eZwsMew7ZaV_HKXnQLGg" 
+            target ="_blank">지기</a></li>
+        
+      </ul>  
+    </nav>
+    <article>
+      <p> "You have to expect things of yourself before you can do them." 
+      - Michael Jordan - </p>
+      <img src="MJ" height = "50px" title = "MJ">
+
+    </article> 
+    <aside>
+      <header> 식단 </header>
+           </aside>
+    <footer>
+       <header>3대 운동 중량 입력</header>
+       <ul></ul>
+    </footer>
+ </div>
+   
+</body>
+</html>
